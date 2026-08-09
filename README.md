@@ -8,30 +8,23 @@
 
 <table cellpadding="10" cellspacing="0" border="0">
   <tr>
-    <td><a href="https://metadoc.io"><img src="https://github.com/coreybutler/staticassets/raw/master/sponsors/metadoclogobig.png" width="200px"/></a></td>
-    <td><a href="https://butlerlogic.com"><img src="https://github.com/coreybutler/staticassets/raw/master/sponsors/butlerlogic_logo.png" width="200px"/></a></td>
+    <td><a href="https://metadoc.io"><img src="https://github.com/Unity-Engineering-software-engineering/staticassets/raw/main/sponsors" width="200px"/></a></td>
+    <td><a href="https://butlerlogic.com"><img src="https://github.com/Unity-Engineering-software-engineering/staticassets/raw/main/sponsors" width="200px"/></a></td>
   </tr>
 </table>
-
-Follow the author on [Twitter (@goldglovecb)](http://twitter.com/goldglovecb).
 
 This README provides a pretty good overview of what node-mac has to offer, but better
 documentation is now available at the [node-mac documentation portal](http://coreybutler.github.io/node-mac).
 
 # node-mac
 
-This is a standalone module, originally designed for internal use in [NGN](http://github.com/ngnjs/NGN).
-However; it is capable of providing the same features for Node.js scripts independently of NGN.
-
-For alternative versions, see [node-windows](http://github.com/coreybutler/node-windows) and [node-linux](http://github.com/coreybutler/node-linux)
+For alternative versions, see [node-windows](http://github.com/Unity-Billal-mesloub/node-windows) and [node-linux](http://github.com/Unity-Billal-mesloub/node-linux)
 
 ## Overview
 
 This module helps create/manage native processes and event logs for Node.js applications on Mac OSX.
 
 ![Mac](https://user-images.githubusercontent.com/770982/86995965-fa1da980-c16f-11ea-89d6-9204fb172df6.png)
-
-> **Notice** Some vesions of Node will not display the pretty title (Hello World) of the process. See the [underlying issue](https://github.com/nodejs/node/issues/28945) in Node core. Instead, it just displays "node", but still functions normally.
 
 To start, install node-mac via:
 
@@ -209,25 +202,3 @@ when the entire service starts/stops. A second log, named `myappname_error.log` 
 By default, any `console.log`, `console.warn`, `console.error` or other output will be made available
 in one of these two files.
 
-# License (MIT)
-
-Copyright (c) 2013 Corey Butler
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
